@@ -1,0 +1,22 @@
+theme = "rose_pine_transparent"
+
+[editor]
+line-number = "relative"
+
+[editor.cursor-shape]
+insert = "bar"
+
+[editor.statusline]
+left = ["mode", "separator","spacer","version-control", "file-base-name"]
+right = ["diagnostics", "spinner", "file-encoding", "file-type", "position-percentage", "position"]
+separator = ""
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[editor.lsp]
+display-inlay-hints = true
+
+[keys.normal]
+J = ["extend_to_line_bounds", "delete_selection", "paste_after"]
+K = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]
