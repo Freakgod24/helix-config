@@ -22,3 +22,7 @@ display-inlay-hints = true
 J = ["extend_to_line_bounds", "delete_selection", "paste_after"]
 K = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]
 A-a = ["yank", "move_visual_line_down", "replace_with_yanked", "increment"]
+
+[keys.normal.space]
+"o" = [":sh lazygit"]
+"c" = [":redraw"]
