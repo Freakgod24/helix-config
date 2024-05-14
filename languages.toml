@@ -13,3 +13,8 @@ language-servers = ["pylsp"]
 [language.formatter]
 command = "black"
 args = ["--line-length", "88", "--quiet", "-"]
+
+[[language]]
+name = "go"
+auto-format = true
+formatter = { command = "goimports" }
